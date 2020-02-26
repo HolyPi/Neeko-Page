@@ -1,0 +1,65 @@
+body {
+    font-family: serif;
+}
+
+
+.container1 {
+    position: absolute;
+    background-color: lightseagreen;
+    width: 1500px;
+    height: 910px;
+    
+}
+
+.butterfly {
+    margin-left: 345px;
+    margin-top: -110px;
+    position: absolute;
+    
+    
+
+}
+.tree {
+    
+    margin-left: 800px;
+    position: absolute;
+    -webkit-filter: blur(2px);
+    
+}
+
+figure {
+    margin-top: -1px;
+    position: absolute;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+.foliage {
+    -webkit-filter: blur(4px);
+    position: absolute;
+    margin: auto;
+  
+}
+
+p {
+    position: absolute;
+    font-size: 500px;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+.fog1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+/* .background {
+background: rgb(1,12,0);
+background: radial-gradient(circle, rgba(1,12,0,1) 25%, rgba(1,58,15,1) 42%, rgba(1,61,16,1) 43%, rgba(0,212,255,1) 100%);
+} */
