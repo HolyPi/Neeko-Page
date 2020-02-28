@@ -4,10 +4,10 @@ body {
 
 
 .container1 {
-    position: absolute;
     background-color: lightseagreen;
     width: 1500px;
     height: 910px;
+    
     
 }
 
@@ -33,7 +33,7 @@ figure {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
-    box-shadow: 10px 10px 5px grey;
+  
 }
 
 
@@ -41,7 +41,7 @@ figure {
 .foliage {
     -webkit-filter: blur(4px);
     position: absolute;
-    margin: auto;
+    padding-top: 1px;
   
 }
 
@@ -57,6 +57,66 @@ p {
     position: absolute;
     width: 500px;
     height: 500px;
+}
+
+.container2 {
+    width: 1500px;
+    height: 910px;
+
+}
+
+
+.back {
+    -webkit-filter: blur(1px);
+    position: absolute;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+.winterneeko {
+    margin-top: -1px;
+    position: absolute;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.mist {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+
+.snow {
+    position: relative;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    -webkit-filter: blur(1px);
+    opacity: 0.5;
+}
+
+.back2 {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    position: absolute;
+}
+
+.starguardian {
+    margin-top: -1px;
+    position: absolute;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.pinkfog {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.sparkles {
+    position: relative;
 }
 
 /* .background {
